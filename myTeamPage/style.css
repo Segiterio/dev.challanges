@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.vertical-Text {
+    writing-mode: vertical-rl;
+}
+
+.all-child-even> :nth-child(2n) {
+    position: relative;
+    top: 50px;
+}
+
+@media screen and (min-width:1024px) {
+
+    .all-child-even> :nth-child(2n) {
+        top: 0px;
+    }
+
+    .all-child-even> :nth-child(3n-1) {
+        position: relative;
+        top: 50px;
+    }
+}
