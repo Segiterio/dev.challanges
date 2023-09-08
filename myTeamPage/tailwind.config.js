@@ -8,6 +8,11 @@ module.exports = {
       },
       fontSize: {
          "xss": ["10px","1.3"]
+      },
+      fontFamily:{
+         "ptSerif":["'PT Serif'","serif"],
+         "Montserrat":["Montserrat" ,"sans"],
+         "Poppins":["Poppins","sans"]
       }
     },
   },
